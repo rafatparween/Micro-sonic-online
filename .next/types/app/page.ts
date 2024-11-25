@@ -1,4 +1,4 @@
-// File: /home/rafat/print_assist/app/page.js
+// File: /home/rafat/micro_sonic_online/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

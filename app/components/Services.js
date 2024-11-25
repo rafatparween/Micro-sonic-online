@@ -1,4 +1,5 @@
 import React from 'react';
+import Context from './Context';
 
 const services = [
   {
@@ -43,6 +44,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
+    <>
     <section className="bg-gradient-to-br from-purple-900 via-blue-900 to-gray-900 text-white  py-16 px-4 md:px-8">
       <div className="text-center mb-12">
         <p className="text-purple-300 text-xl font-medium font-dancing">Our Services</p>
@@ -73,6 +75,8 @@ const ServicesSection = () => {
         ))}
       </div>
     </section>
+    <Context/>
+    </>
   );
 };
 
