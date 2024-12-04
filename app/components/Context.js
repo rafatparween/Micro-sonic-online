@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function Home() {
+export default function Context() {
   return (
     <div className="bg-darkBlue text-white h-[600px] flex flex-col items-center">
       {/* Header Section */}

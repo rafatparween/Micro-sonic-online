@@ -321,29 +321,29 @@ export default function Home() {
               {isServicesOpen && (
                 <div className="absolute left-0 top-full mt-2 bg-white text-gray-800 shadow-lg rounded-md z-20">
                   <ul className="py-2 w-64">
-                    <li className="text-[18px] text-purple-900 ">Services</li>
+                    {/* <li className="text-[18px] text-purple-900 ">Services</li> */}
                     <li className="hover:bg-gray-100 px-4 py-2 hover:text-purple-900 hover:font-bold">
                       <a href="/uiux" className="block text-lg">
                         UI/UX
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/webdevelopment" className="block text-lg">
+                      <a href="/webdevelopment" className="block text-lg hover:text-blue-900">
                         Web Development
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/mobile-app" className="block text-lg">
+                      <a href="/mobile-app" className="block text-lg hover:text-blue-900">
                         Mobile App Development
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/customsoftware" className="block text-lg">
+                      <a href="/customsoftware" className="block text-lg hover:text-blue-900">
                         Custome Software
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/digital-marketing" className="block text-lg">
+                      <a href="/digital-marketing" className="block text-lg hover:text-blue-900">
                         Digital Marketing
                       </a>
                     </li>

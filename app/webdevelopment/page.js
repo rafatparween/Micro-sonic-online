@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
                     {/* Left Section: Text */}
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+                        <h1 className="w-[752px] text-4xl md:text-5xl font-bold text-white leading-tight">
                             Your Web Application <br />
                             Development Company
                         </h1>
@@ -45,7 +45,7 @@ export default function Home() {
                             width={432}
                             height={299}
                             alt="UI/UX Illustration"
-                            className="w-full max-w-md lg:max-w-lg object-cover"
+                            className="w-full max-w-md lg:max-w-lg object-cover 2xl:mr-[-426px] xl:mr-[-180px]"
                         />
                     </div>
                 </div>

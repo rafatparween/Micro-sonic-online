@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Context from "../components/Context";
 
 export default function Home() {
     return (
@@ -13,9 +14,9 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
                     {/* Left Section: Text */}
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-                            UI/UX Design & <br />
-                            Development Services
+                        <h1 className="w-[752px] text-4xl md:text-5xl font-bold text-white leading-tight">
+                            Digital Marketing Solutions for<br />
+                            Tangible Results
                         </h1>
                         <button className="mt-6 inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 transition">
                             <span className="flex items-center justify-center w-5 h-5 bg-white text-purple-600 rounded-full mr-3">
@@ -41,28 +42,26 @@ export default function Home() {
                     {/* Right Section: Image */}
                     <div className="flex justify-center">
                         <Image
-                            src="/uiux.png"
-                            width={432}
-                            height={299}
+                            src="/digital-marketinggg.png"
+                            width={465}
+                            height={308}
                             alt="UI/UX Illustration"
-                            className="w-full max-w-md lg:max-w-lg object-cover"
+                            className="w-full max-w-md lg:max-w-lg object-cover 2xl:mr-[-426px] xl:mr-[-180px]"
                         />
                     </div>
                 </div>
             </div>
 
-            <div className="min-h-screen bg-gray-50">
+
+            <div className="h-[742px] bg-gray-50">
                 {/* Header Section */}
                 <div className="text-center py-16 px-6">
                     <h1 className="text-3xl md:text-5xl font-bold">
-                        Our Seamless UI/UX Design and{" "}
+                        Our Seamless  Digital Marketing and{" "}
                         <span className="text-blue-500">Development Services</span>
                     </h1>
                     <p className="mt-4 text-gray-600 text-lg">
-                        Engage UI/UX designers who are committed to transforming your
-                        brand's vision into reality. Our team ensures that project designs
-                        are not only visually stunning but also easy-to-navigate, delivering
-                        users a seamless and engaging experience.
+                        Stay seamlessly connected with a dedicated account manager to stay abreast of updates in strategy and implementation.
                     </p>
                 </div>
 
@@ -184,105 +183,115 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
+
+
             </div>
+            <div className="bg-blue-900 ">
+                <Context/>
+                
+
+            </div>
+
+            <div className="bg-white py-16 px-8">
+                <div className="flex items-center justify-between 2xl:ml-[115px]">
+                    {/* Left Text Section */}
+                    <div className="w-1/2 space-y-6">
+                        <h1 className="text-[43px] font-bold text-gray-900">
+                            Social Media Marketing <br />
+                            <span className="text-blue-900">Boost click-through rates with optimized meta tags</span>
+                        </h1>
+
+                        {/* <h2 className="text-[40px] text-gray-800">How?</h2> */}
+
+                        <p className="text-lg text-[20px] text-gray-700">
+                            Enhance your website's click-through rates by optimizing meta tags, images, and content for better performance.
+                        </p>
+
+                        {/* Button */}
+                        <p className="text-lg text-[20px] text-gray-700">
+                            Engage digital marketing outsourcing experts to craft SEO campaigns, targeting business-relevant branded and non-branded keywords.                            </p>
+                    </div>
+
+                    {/* Right Image Section */}
+                    <div className="w-1/2 flex justify-center">
+                        <Image
+                            src="/smm.png" // Use a placeholder image or the actual image path here
+                            alt="Crafting Image"
+                            width={598}
+                            height={479}
+                            className="object-cover rounded-xl shadow-lg"
+                        />
+                    </div>
+                </div>
+            </div>
+
             <div className="min-h-screen bg-blue-900 flex flex-col items-center justify-center text-white">
-        {/* Title Section */}
-        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-center">
-          Top Skills for <span className="text-sky-400">UI Designer</span>
-        </h2>
+                <div className="flex justify-between items-center px-6 py-8">
+                    {/* Left Image Section */}
 
-        {/* Icon Section */}
-        <div className="flex gap-8">
-          {/* Adobe XD */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-pink-700 rounded-full">
-            <span className="text-xl font-bold">Xd</span>
-          </div>
+                    <div className="w-1/2">
+                        <Image
+                            src="/crafting.png" // Use a placeholder image or the actual image path here
+                            alt="Pocket Empty"
+                            width={598}
+                            height={479}
+                            className="object-cover "
+                        />
+                    </div>
 
-          {/* Photoshop */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-blue-700 rounded-full">
-            <span className="text-xl font-bold">Ps</span>
-          </div>
+                    {/* Right Text Section */}
+                    <div className="w-1/2 flex flex-col space-y-6">
+                        <h1 className="text-[43px] text-white">
+                            Crafting Experiences That Deliver Results <br />
+                            <span className="text-orange-500 text-white">Communicate your brand's message </span>
+                        </h1>
 
-          {/* Figma */}
-          <div className="flex items-center justify-center rounded-full">
-            <Image
-              src="/figma.png"
-              height={176}
-              width={176}
-              alt="Figma Icon"
-              className=""
-            />
-          </div>
+                        <h2 className="text-[40px] text-white ">How?</h2>
 
-          {/* Illustrator */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-orange-700 rounded-full">
-            <span className="text-xl font-bold">Ai</span>
-          </div>
+                        <p className="text-lg w-[750px] text-[20px] text-white">
+                            Convey your brand's message and boost visibility through seamless UI/UX designs created by our expert in-house design studio team.  </p>
 
-          {/* After Effects */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-purple-800 rounded-full">
-            <span className="text-xl font-bold">Ae</span>
-          </div>
-        </div>
-      </div>
-      <div className="text-center py-16">
-      {/* Heading */}
-      <h2 className="text-3xl font-bold">
-        Approach <span className="text-blue-500">We Follow</span>
-      </h2>
-      <p className="text-gray-600 mt-2">
-        Our Designs are an outcome of in-depth research & Market Analysis For
-        Achieving your Business Goals
-      </p>
+                        <button className="bg-blue-600 text-white px-6 py-3 rounded-[30px] w-max">
+                            Empower your customers with a seamless experience through mobile-first websites.
+                        </button>
+                    </div>
+                </div>
+                <div className="bg-white py-16 px-8">
+                    <div className="flex items-center justify-between 2xl:ml-[115px]">
+                        {/* Left Text Section */}
+                        <div className="w-1/2 space-y-6">
+                            <h1 className="text-[43px] font-bold text-gray-900">
+                                Search Engine Optimization <br />
+                                <span className="text-blue-900">Attract visitors organically to your website through the creation.</span>
+                            </h1>
 
-      {/* Steps */}
-      <div className="flex justify-center items-center mt-12 space-x-16 relative">
-        {/* Dotted Line */}
-        <div className="absolute w-full max-w-[900px] h-0.5 dotted-line"></div>
+                            {/* <h2 className="text-[40px] text-gray-800">How?</h2> */}
 
-        {/* Step 1 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/research.png"
-              height={77}
-              width={71}
-              alt="Research"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Research</p>
-        </div>
+                            <p className="text-lg text-[20px] text-gray-700">
+                                Convey your brand's message and boost visibility through seamless UI/UX designs created by our expert in-house design studio team.
+                            </p>
 
-        {/* Step 2 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/idea.png"
-              height={77}
-              width={71}
-              alt="Idea"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Idea</p>
-        </div>
+                            {/* Button */}
+                            <p className="text-lg text-[20px] text-gray-700">
+                                Engage digital marketing outsourcing experts to craft SEO campaigns, targeting business-relevant branded and non-branded keywords.
+                            </p>
+                        </div>
 
-        {/* Step 3 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/goal.png"
-              height={77}
-              width={71}
-              alt="Goal"
-              className="w-[77] h-[71]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Goal</p>
-        </div>
-      </div>
-    </div>
-    </>
+                        {/* Right Image Section */}
+                        <div className="w-1/2 flex justify-center">
+                            <Image
+                                src="/seo.png" // Use a placeholder image or the actual image path here
+                                alt="Crafting Image"
+                                width={598}
+                                height={479}
+                                className="object-cover rounded-xl shadow-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </>
     );
 }

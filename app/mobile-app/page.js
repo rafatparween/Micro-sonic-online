@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
                     {/* Left Section: Text */}
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+                        <h1 className="w-[752px] text-4xl md:text-5xl font-bold text-white leading-tight">
                         Start your success journey with a   <br />
                         Mobile app Development 
                         </h1>
@@ -45,7 +45,7 @@ export default function Home() {
                             width={400}
                             height={400}
                             alt="UI/UX Illustration"
-                            className="w-full max-w-md lg:max-w-lg object-cover"
+                            className="max-w-md lg:max-w-lg object-cover 2xl:mr-[-426px] xl:mr-[-180px]"
                         />
                     </div>
                 </div>
@@ -54,15 +54,12 @@ export default function Home() {
             <div className="min-h-screen bg-gray-50">
                 {/* Header Section */}
                 <div className="text-center py-16 px-6">
-                    <h1 className="text-3xl md:text-5xl font-bold">
-                        Our Seamless UI/UX Design and{" "}
-                        <span className="text-blue-500">Development Services</span>
+                    <h1 className="text-3xl md:text-5xl font-bold text-black">
+                    Enhance User Experience Through Tailored{" "}
+                        <span className="text-blue-500">Development of Mobile Applications</span>
                     </h1>
                     <p className="mt-4 text-gray-600 text-lg">
-                        Engage UI/UX designers who are committed to transforming your
-                        brand's vision into reality. Our team ensures that project designs
-                        are not only visually stunning but also easy-to-navigate, delivering
-                        users a seamless and engaging experience.
+                    We provide cutting-edge mobile app development services designed for the contemporary landscape, surpassing both market norms and industry standards.
                     </p>
                 </div>
 
@@ -187,101 +184,51 @@ export default function Home() {
             </div>
             <div className="min-h-screen bg-blue-900 flex flex-col items-center justify-center text-white">
         {/* Title Section */}
-        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-center">
-          Top Skills for <span className="text-sky-400">UI Designer</span>
+        <div className="bg-gray-100 py-10 mt-[100px] mb-[100px]">
+      <div className="max-w-7xl mx-auto px-4 ">
+        {/* Title Section */}
+        <h2 className="text-3xl font-bold text-center mb-4 text-black">
+          We Follow a Dynamic Approach in App Development Methodology
         </h2>
+        <p className="text-gray-600 text-center mb-8">
+          Our technical approach distinguishes us; we leverage cutting-edge programming languages to ensure your app stands out with exceptional functionality and performance.
+        </p>
 
-        {/* Icon Section */}
-        <div className="flex gap-8">
-          {/* Adobe XD */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-pink-700 rounded-full">
-            <span className="text-xl font-bold">Xd</span>
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          {/* Left Side Content */}
+          <div className="space-y-6 ml-[134px] mt-[-91px]">
+            {[
+              'Data Protection',
+              'Agile Development',
+              'On-Time Delivery',
+              'Quality First Approach',
+              '24/7 Technical Support',
+            ].map((item, index) => (
+              <div key={index} className="flex items-center space-x-3">
+                <div className="w-6 h-6 flex justify-center items-center bg-blue-200 text-blue-600 font-semibold rounded-full">
+                  {index + 1}
+                </div>
+                <span className="text-gray-700 font-medium">{item}</span>
+              </div>
+            ))}
           </div>
 
-          {/* Photoshop */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-blue-700 rounded-full">
-            <span className="text-xl font-bold">Ps</span>
-          </div>
-
-          {/* Figma */}
-          <div className="flex items-center justify-center rounded-full">
+          {/* Right Side Image */}
+          <div className="relative">
             <Image
-              src="/figma.png"
-              height={176}
-              width={176}
-              alt="Figma Icon"
-              className=""
+              src="/quality.png" // Add your image to the public folder or replace the path
+              alt="Quality First Approach"
+              width={500}
+              height={500}
+              className="rounded-lg shadow-md"
             />
-          </div>
-
-          {/* Illustrator */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-orange-700 rounded-full">
-            <span className="text-xl font-bold">Ai</span>
-          </div>
-
-          {/* After Effects */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-purple-800 rounded-full">
-            <span className="text-xl font-bold">Ae</span>
+            <p className="text-gray-700 mt-4">
+              Every line of code is meticulously crafted and thoroughly tested, ensuring a seamless and reliable experience for our users.
+            </p>
           </div>
         </div>
       </div>
-      <div className="text-center py-16">
-      {/* Heading */}
-      <h2 className="text-3xl font-bold">
-        Approach <span className="text-blue-500">We Follow</span>
-      </h2>
-      <p className="text-gray-600 mt-2">
-        Our Designs are an outcome of in-depth research & Market Analysis For
-        Achieving your Business Goals
-      </p>
-
-      {/* Steps */}
-      <div className="flex justify-center items-center mt-12 space-x-16 relative">
-        {/* Dotted Line */}
-        <div className="absolute w-full max-w-[900px] h-0.5 dotted-line"></div>
-
-        {/* Step 1 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/research.png"
-              height={77}
-              width={71}
-              alt="Research"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Research</p>
-        </div>
-
-        {/* Step 2 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/idea.png"
-              height={77}
-              width={71}
-              alt="Idea"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Idea</p>
-        </div>
-
-        {/* Step 3 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/goal.png"
-              height={77}
-              width={71}
-              alt="Goal"
-              className="w-[77] h-[71]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Goal</p>
-        </div>
-      </div>
+    </div>
     </div>
     </>
     );

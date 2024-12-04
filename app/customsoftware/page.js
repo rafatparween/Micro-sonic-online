@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Context from "../components/Context";
 
 export default function Home() {
     return (
@@ -13,9 +14,9 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
                     {/* Left Section: Text */}
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-                            UI/UX Design & <br />
-                            Development Services
+                        <h1 className="w-[752px] text-4xl md:text-5xl font-bold text-white leading-tight">
+                        Custom Software Development<br />
+                        Services
                         </h1>
                         <button className="mt-6 inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-purple-600 rounded-full shadow-lg hover:bg-purple-700 transition">
                             <span className="flex items-center justify-center w-5 h-5 bg-white text-purple-600 rounded-full mr-3">
@@ -41,22 +42,22 @@ export default function Home() {
                     {/* Right Section: Image */}
                     <div className="flex justify-center">
                         <Image
-                            src="/uiux.png"
-                            width={432}
-                            height={299}
+                            src="/custom.png"
+                            width={375}
+                            height={321}
                             alt="UI/UX Illustration"
-                            className="w-full max-w-md lg:max-w-lg object-cover"
+                            className="max-w-md lg:max-w-lg object-cover 2xl:mr-[-426px] xl:mr-[-180px]"
                         />
                     </div>
                 </div>
             </div>
 
-            <div className="min-h-screen bg-gray-50">
+            <div className="min-h-screen bg-gray-50 mb-[77px]">
                 {/* Header Section */}
                 <div className="text-center py-16 px-6">
                     <h1 className="text-3xl md:text-5xl font-bold">
-                        Our Seamless UI/UX Design and{" "}
-                        <span className="text-blue-500">Development Services</span>
+                    Complete Custom Software{" "}
+                        <span className="text-blue-500">Development Solutions</span>
                     </h1>
                     <p className="mt-4 text-gray-600 text-lg">
                         Engage UI/UX designers who are committed to transforming your
@@ -186,102 +187,53 @@ export default function Home() {
                 </div>
             </div>
             <div className="min-h-screen bg-blue-900 flex flex-col items-center justify-center text-white">
+                <Context/>
         {/* Title Section */}
-        <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-center">
-          Top Skills for <span className="text-sky-400">UI Designer</span>
+        <div className="bg-gray-100 py-10 mt-[100px] mb-[100px]">
+      <div className="max-w-7xl mx-auto px-4 ">
+        {/* Title Section */}
+        <h2 className="text-3xl font-bold text-center mb-4 text-black">
+        Why Micro Sonic is the Most Trusted Custom Software Development Company
         </h2>
+        <p className="text-gray-600 text-center mb-8">
+        With nearly a decade of industry experience, Beta Byte is adept at managing diverse and complex software development projects, making us the perfect fit for your business.
+        </p>
 
-        {/* Icon Section */}
-        <div className="flex gap-8">
-          {/* Adobe XD */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-pink-700 rounded-full">
-            <span className="text-xl font-bold">Xd</span>
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          {/* Left Side Content */}
+          <div className="space-y-6 ml-[134px] mt-[-91px]">
+            {[
+              'Data Protection',
+              'Agile Development',
+              'On-Time Delivery',
+              'Quality First Approach',
+              '24/7 Technical Support',
+            ].map((item, index) => (
+              <div key={index} className="flex items-center space-x-3">
+                <div className="w-6 h-6 flex justify-center items-center bg-blue-200 text-blue-600 font-semibold rounded-full">
+                  {index + 1}
+                </div>
+                <span className="text-gray-700 font-medium">{item}</span>
+              </div>
+            ))}
           </div>
 
-          {/* Photoshop */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-blue-700 rounded-full">
-            <span className="text-xl font-bold">Ps</span>
-          </div>
-
-          {/* Figma */}
-          <div className="flex items-center justify-center rounded-full">
+          {/* Right Side Image */}
+          <div className="relative">
             <Image
-              src="/figma.png"
-              height={176}
-              width={176}
-              alt="Figma Icon"
-              className=""
+              src="/quality.png" // Add your image to the public folder or replace the path
+              alt="Quality First Approach"
+              width={500}
+              height={500}
+              className="rounded-lg shadow-md"
             />
-          </div>
-
-          {/* Illustrator */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-orange-700 rounded-full">
-            <span className="text-xl font-bold">Ai</span>
-          </div>
-
-          {/* After Effects */}
-          <div className="flex items-center justify-center w-[103px] h-[103px] bg-purple-800 rounded-full">
-            <span className="text-xl font-bold">Ae</span>
+            <p className="text-gray-700 mt-4">
+              Every line of code is meticulously crafted and thoroughly tested, ensuring a seamless and reliable experience for our users.
+            </p>
           </div>
         </div>
       </div>
-      <div className="text-center py-16">
-      {/* Heading */}
-      <h2 className="text-3xl font-bold">
-        Approach <span className="text-blue-500">We Follow</span>
-      </h2>
-      <p className="text-gray-600 mt-2">
-        Our Designs are an outcome of in-depth research & Market Analysis For
-        Achieving your Business Goals
-      </p>
-
-      {/* Steps */}
-      <div className="flex justify-center items-center mt-12 space-x-16 relative">
-        {/* Dotted Line */}
-        <div className="absolute w-full max-w-[900px] h-0.5 dotted-line"></div>
-
-        {/* Step 1 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/research.png"
-              height={77}
-              width={71}
-              alt="Research"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Research</p>
-        </div>
-
-        {/* Step 2 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/idea.png"
-              height={77}
-              width={71}
-              alt="Idea"
-              className="w-[71px] h-[77px]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Idea</p>
-        </div>
-
-        {/* Step 3 */}
-        <div className="text-center">
-          <div className="w-[128px] h-[128px] bg-blue-400 rounded-full flex justify-center items-center mx-auto">
-            <Image
-              src="/goal.png"
-              height={77}
-              width={71}
-              alt="Goal"
-              className="w-[77] h-[71]"
-            />
-          </div>
-          <p className="mt-4 text-lg font-bold">Goal</p>
-        </div>
-      </div>
+    </div>
     </div>
     </>
     );
