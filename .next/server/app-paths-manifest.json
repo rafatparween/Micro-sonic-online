@@ -1,7 +1,5 @@
 {
   "/page": "app/page.js",
-  "/mobile-app/page": "app/mobile-app/page.js",
-  "/customsoftware/page": "app/customsoftware/page.js",
-  "/digital-marketing/page": "app/digital-marketing/page.js",
-  "/webdevelopment/page": "app/webdevelopment/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/customsoftware/page": "app/customsoftware/page.js"
 }

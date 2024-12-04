@@ -327,14 +327,15 @@ export default function Home() {
                         UI/UX
                       </a>
                     </li>
-                    <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/webdevelopment" className="block text-lg hover:text-blue-900">
-                        Web Development
-                      </a>
-                    </li>
+                    
                     <li className="hover:bg-gray-100 px-4 py-2">
                       <a href="/mobile-app" className="block text-lg hover:text-blue-900">
                         Mobile App Development
+                      </a>
+                    </li>
+                    <li className="hover:bg-gray-100 px-4 py-2">
+                      <a href="/webdevelopment" className="block text-lg hover:text-blue-900">
+                        Web Development
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
