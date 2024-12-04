@@ -16,7 +16,7 @@ export default function Home() {
       {/* Services Section */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 px-6 lg:px-16">
         {/* Service Card 1 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/Analysis.png"
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Service Card 2 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/Deployment.png"
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
 
         {/* Service Card 3 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/lasticon.png"
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         {/* Service Card 4 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg  hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/psd.png"
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
 
         {/* Service Card 5 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg  hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/html.png"
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
 
         {/* Service Card 6 */}
-        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg">
+        <div className="bg-black rounded-lg p-4 flex flex-col items-center shadow-lg  hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500">
           <div className="h-16 w-16 relative mb-4">
             <Image
               src="/shopify.png"
