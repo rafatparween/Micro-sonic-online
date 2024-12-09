@@ -11,10 +11,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/customsoftware/page": [
+    "/mobile-app/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/customsoftware/page.js"
+      "static/chunks/app/mobile-app/page.js"
+    ],
+    "/uiux/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/uiux/page.js"
     ]
   }
 }

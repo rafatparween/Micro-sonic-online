@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center justify-center py-10 mt-[-103px]">
-                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by Printasist</span>
+                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by printcontentprovider</span>
             </div>
         </footer>
     );
