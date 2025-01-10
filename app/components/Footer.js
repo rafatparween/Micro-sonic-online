@@ -38,7 +38,7 @@ const Footer = () => {
                     <div className="flex flex-col text-start mb-4 md:mb-0 text-[18px]">
                         {[
                             { name: 'Terms and Conditions', path: '/term' },
-                            { name: 'Privacy Policy', path: '/privacyPolicy' },
+                            { name: 'Privacy Policy', path: '/privacy' },
                             { name: 'License Agreement', path: '/license-agreement' },
                             { name: 'Copyright Information', path: '/copyright-information' },
                             { name: 'Cookies Policy', path: '/cookies-policy' }
@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center justify-center py-10 mt-[-103px]">
-                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by printcontentprovider</span>
+                <span className="text-gray-400 leading-10">© Copyright, All Rights Reserved by micro-sonic.online</span>
             </div>
         </footer>
     );
