@@ -1,4 +1,4 @@
-// File: /home/rafat/micro_sonic_online/app/customsoftware/page.js
+// File: /home/ng/micro_sonic/app/customsoftware/page.js
 import * as entry from '../../../../app/customsoftware/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
