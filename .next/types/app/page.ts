@@ -1,4 +1,4 @@
-// File: /home/ng/micro_sonic/app/page.js
+// File: /home/ng/z_tech/app/page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

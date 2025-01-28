@@ -339,8 +339,8 @@ export default function Home() {
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
-                      <a href="/customsoftware" className="block text-lg hover:text-blue-900">
-                        Custome Software
+                      <a href="/softwareservices" className="block text-lg hover:text-blue-900">
+                        Software Services
                       </a>
                     </li>
                     <li className="hover:bg-gray-100 px-4 py-2">
