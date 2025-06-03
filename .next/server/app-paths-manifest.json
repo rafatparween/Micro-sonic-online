@@ -1,4 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/softwareservices/page": "app/softwareservices/page.js"
+  "/softwareservices/page": "app/softwareservices/page.js",
+  "/service/Pages/page": "app/service/Pages/page.js",
+  "/service/Pages/install/page": "app/service/Pages/install/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/service/Pages/install/process/page": "app/service/Pages/install/process/page.js",
+  "/service/Pages/install/process/error.html/page": "app/service/Pages/install/process/error.html/page.js"
 }
