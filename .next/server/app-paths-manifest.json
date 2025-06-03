@@ -1,23 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/about/page": "app/about/page.js",
-  "/components/projects/page": "app/components/projects/page.js",
-  "/components/help/page": "app/components/help/page.js",
-  "/components/signup/page": "app/components/signup/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/digital-marketing/page": "app/digital-marketing/page.js",
-  "/mobile-app/page": "app/mobile-app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/disclaimer/page": "app/disclaimer/page.js",
-  "/privacy/page": "app/privacy/page.js",
   "/page": "app/page.js",
-  "/service/Pages/install/page": "app/service/Pages/install/page.js",
-  "/service/Pages/page": "app/service/Pages/page.js",
-  "/service/Pages/install/process/error.html/page": "app/service/Pages/install/process/error.html/page.js",
-  "/service/page": "app/service/page.js",
-  "/service/Pages/install/process/page": "app/service/Pages/install/process/page.js",
   "/softwareservices/page": "app/softwareservices/page.js",
-  "/term/page": "app/term/page.js",
-  "/webdevelopment/page": "app/webdevelopment/page.js",
-  "/uiux/page": "app/uiux/page.js"
+  "/service/Pages/page": "app/service/Pages/page.js",
+  "/service/Pages/install/page": "app/service/Pages/install/page.js",
+  "/service/Pages/install/process/page": "app/service/Pages/install/process/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

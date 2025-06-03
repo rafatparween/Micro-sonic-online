@@ -1,4 +1,4 @@
-// File: C:\project\micro_eztech\Micro-sonic-online\app\service\Pages\page.js
+// File: C:\project\new_eztechprint\new_eztech\Micro-sonic-online\app\service\Pages\page.js
 import * as entry from '../../../../../app/service/Pages/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
