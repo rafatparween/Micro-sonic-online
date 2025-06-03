@@ -190,6 +190,7 @@ import NavbarSection from '@/app/Components/NavbarSection';
 
 
 
+
 function Home() {
   const router = useRouter();
   const [searchTerm, setSearchTerm] = useState('');
